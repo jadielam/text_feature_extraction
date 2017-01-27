@@ -14,6 +14,7 @@ class FeatureExtractor():
         
         self._parser = English()
     
+    
     def extract_features(self, sentence, feature_names_s):
         sentence_u = unicode(sentence, "utf-8")
         to_return = {}
