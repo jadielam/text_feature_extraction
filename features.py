@@ -10,10 +10,8 @@ from nltk.stem import SnowballStemmer
 from nltk.stem import WordNetLemmatizer
 
 class FeatureExtractor():
-    def __init__(self):
-        
+    def __init__(self):    
         self._parser = English()
-    
     
     def extract_features(self, sentence, feature_names_s):
         sentence_u = unicode(sentence, "utf-8")
